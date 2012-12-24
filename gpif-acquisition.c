@@ -151,7 +151,7 @@ static void gpif_make_delay_state(volatile BYTE *pSTATE, uint8_t delay)
 	 * OUTPUT
 	 * OE[0:3]=0, CTL[0:3]=0
 	 */
-	pSTATE[16] = 0x00;
+	pSTATE[16] = 0x04;
 
 	/*
 	 * LOGIC FUNCTION
